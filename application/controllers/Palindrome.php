@@ -4,8 +4,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Palindrome extends CI_Controller {
     public function index()
     {
-        $wordList = ['malam']; 
+        $wordList = ['malam'];
+
         $this->palindromes($wordList);
+
     }
 
     public function palindromes($x) {
